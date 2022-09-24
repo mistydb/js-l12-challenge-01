@@ -28,6 +28,6 @@ const displayImage = function(randomImage) {
     imgDiv.classList.remove("hide");
 };
 
-button.addEventListener("click", function(
+button.addEventListener("click", function() {
     getImage();
-));
+});
